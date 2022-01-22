@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background: #ffb13a;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container__content {
+  width: 60%;
+}
+
+.textbox {
+  width: 100%;
+  resize: none;
+  background: linear-gradient(145deg, #ffb13a, #E9F2FB);
+  -webkit-box-shadow: inset 8px 8px 15px #7e4ebc;
+          box-shadow: inset 8px 8px 15px #7e4ebc;
+  border-radius: 12px;
+  border: none;
+  overflow: auto;
+  padding: 20px;
+  outline: none;
+  margin: 50px 0;
+  margin-left: -40px;
+}
+
+.keyboard {
+  padding: 25px;
+  background: linear-gradient(145deg, #ffb13a, #E9F2FB);
+  -webkit-box-shadow: 8px 8px 15px #7e4ebc;
+          box-shadow: 8px 8px 15px #7e4ebc;
+  border-radius: 12px;
+  min-width: 750px;
+  max-width: 1000px;
+}
+
+.keyboard__keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.key {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  margin: 10px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #ffb13a, #E9F2FB);
+  -webkit-box-shadow: 5px 5px 15px #7e4ebc;
+          box-shadow: 5px 5px 15px #7e4ebc;
+}
+
+.key__letter {
+  background: -webkit-linear-gradient(245deg, #1E71F5, #3CDEE7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.key__down {
+  color: linear-gradient(45deg, #1E71F5, #3CDEE7);
+  background: linear-gradient(145deg, #E9F2FB, #ffb13a);
+  -webkit-box-shadow: inset 5px 5px 5px #7e4ebc;
+          box-shadow: inset 5px 5px 5px #7e4ebc;
+}
+
+.key__space {
+  width: 60%;
+}
+/*# sourceMappingURL=style.css.map */
